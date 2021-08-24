@@ -1,0 +1,77 @@
+ 
+ /*NAVBAR*/
+ 
+ 
+ .navbar {
+    background-color: rgb(117, 20, 117) !important;
+
+}
+
+.navbar-collapse {
+    flex-basis: 100%;
+    flex-grow: 1;
+    align-items: center;
+    justify-content: space-around;
+    padding-left: 50px;
+}
+
+.navbar-light .navbar-brand {
+    color: white;
+}
+ .navbar-nav  {
+     background-color: rgb(117, 20, 117); 
+     font-size: 20px;
+     display: flex;
+     flex-direction: row;
+     justify-content: space-around;
+     padding-left: 0px;
+
+ }
+
+ .navbar-nav li {
+     color: rgb(206, 34, 34) !important;
+ }
+
+   
+ 
+ form {
+     background-color: whitesmoke;
+     display: flex;
+     flex-direction: row;
+     justify-content: space-between;
+ }
+
+ .btn-outline-success {
+    color: white;
+    background-color: rgb(124, 8, 124) ;
+}
+
+form {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.navbar .navbar-brand {
+    height: 75px;
+    padding-left: 20px;
+    margin-left: 20px;
+}
+
+.navbar-collapse .navbar-nav .nav-item .nav-link {
+    color: white;
+}
+
+.navbar .navbar-collapse .navbar-nav {
+    display: flex;
+    justify-content: space-around;
+    text-align: justify;
+    font-weight: bold;
+    width: 50%;
+    
+}
+
+/*Carrousel*/
+
+
+
