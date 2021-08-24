@@ -71,7 +71,35 @@ form {
     
 }
 
-/*Carrousel*/
+
+
+
+
+    
+    
+
+
+
+
+/*prueba columnas quien soy*/
+ .col-sm-6 {
+     background-color: rgb(131, 31, 131);
+     color: white;
+     
+ }
+
+ .col-sm-6 .container img {
+     width: 100%;
+ }
+
+.container-fluid .row .col-sm-6 p {
+    text-align: justify;
+}
+
+ 
+
+
+
 
 
 
