@@ -1,4 +1,8 @@
  
+ 
+
+ 
+ 
  /*NAVBAR*/
  
  
@@ -97,6 +101,30 @@ form {
 }
 
  
+/*Modalidades*/
+
+.container h1{
+    color: rgb(131, 31, 131);;
+}
+
+.card-group .card .card-body .list-group {
+    border: 5px solid rgb(131, 31, 131);
+}
+
+.card-group .card .card-body .list-group-item{
+ border-bottom: 5px solid rgb(255, 255, 255);
+}
+
+.card-group .card .card-body .list-group li:last-child {
+    border-bottom: none;
+    
+}
+
+.card-group .card .card-body .list-group li {
+    background-color: rgba(126, 119, 119, 0.603);
+    color: rgb(255, 255, 255);
+}
+
 
 
 
