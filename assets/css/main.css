@@ -125,8 +125,31 @@ form {
     color: rgb(255, 255, 255);
 }
 
+.mod-text h1{
+    background-color: black;
+    color: white;
+   
+}
+
+.texto-contacto h1 {
+    background-color: rgb(131, 31, 131);
+}
+
+.contacto {
+    background-color: black;
+    top: 0px
+    ;
+}
 
 
+
+.col-contacto .contacto .row div {
+    color: white;
+}
+
+.col-contacto {
+    background-color: rgb(131, 31, 131);
+}
 
 
 

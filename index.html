@@ -25,17 +25,17 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto">
           <li class="nav-item active">
-            <a class="nav-link" href="#">Inicio</a>
+            <a class="nav-link" href="#carouselExampleControls">Inicio</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">¿Quien Soy?</a>
+            <a class="nav-link" href="#quien-soy">¿Quien Soy?</a>
           </li>
           <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <a class="nav-link" href="#modalidades" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
               Modalidades
             </a>
             <li class="nav-item active">
-              <a class="nav-link" href="#">Contacto</a>
+              <a class="nav-link" href="#contacto">Contacto</a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
               <a class="dropdown-item" href="#">Action</a>
               <a class="dropdown-item" href="#">Another action</a>
@@ -82,41 +82,32 @@
 
     <!--prueba columna quien soy bootstrap-->
 
-    <div class="container-fluid">
+    <div id="quien-soy" class="container-fluid">
       <div class="row">
-        
-        
         <div class="col-sm-6 d-flex align-content-around flex-wrap">
-          
-            <div class="text-quiensoy">
+           <div class="text-quiensoy">
               <h1>¿Quien Soy?</h1>
-              <p>Hola! Soy Luz, soy saxofonista profesional con más de 5 años de carrera, me gusta compartir mis conocimientos musicales con personas de todo tipo, he dado clases en escuelas privadas, centros de música y a domicilio.</p>
+              <p class="fs-4">Hola! Soy Luz, soy saxofonista profesional con más de 5 años de carrera, me gusta compartir mis conocimientos musicales con personas de todo tipo, he dado clases en escuelas privadas, centros de música y a domicilio.</p>
             </div>
-        
-
         </div>
-       
-        
-        
+
         <div class="col-sm-6">
-          
             <img class="w-100" src="https://scontent.fmex36-1.fna.fbcdn.net/v/t1.6435-9/61346416_847367425612091_2322942025638346752_n.jpg?_nc_cat=101&ccb=1-5&_nc_sid=8bfeb9&_nc_eui2=AeEd8_MrjGo3KlR__luhZxYa7PH9JxgDXCrs8f0nGANcKnrowZCzzXvbnaVNcCofmolhtWrvem1aHKbEy9HptoQV&_nc_ohc=Hil0LsF2LQAAX8WBCXu&_nc_ht=scontent.fmex36-1.fna&oh=5ae7adc644758ba128cd48717cb72180&oe=6149C92F" alt="luz con playera roja">
-          
         </div>
       </div>
+    </div>
 
 
       <!--Modalidades-->
 
-
-      <div class="container modalidades">
-        <h1 class="d-flex justify-content-center pb-3 pt-3">Modalidades</h1>
+    <div id="modalidades" class="mod-text mw-100">
+      <div class=" modalidades mt-5 mb-5">
+        <h1 class=" d-flex justify-content-center pb-3 pt-3">Modalidades</h1>
       </div>
+    </div>
 
 
       <div class="card-group">
-
-        <!--seguir aqui, copiar este primer div a las otras dos cards-->
         
         <div class="card">
           <img src="assets/img/plan online basico.jpeg" class="card-img-top" alt="tocando sax">
@@ -166,6 +157,33 @@
             </div>
           </div>
         </div>
+    </div>
+
+
+        <!--Contacto-->
+
+    <div id="contacto" class="texto-contacto">
+      <h1 class="text-center pt-4 pb-4 text-white">Contacto</h1>
+    </div>
+
+    <section class="col-contacto pb-5 pt-5">
+      <div class= "container contacto">
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4 py-5 border border-3">
+          <div class="col text-center mh-100">
+            <h1 class="text-white pb-3 fs-3 border-bottom border-3">Ubicación</h1>
+            Ciudad de México</div>
+        <div class="col text-center">
+          <h1 class="text-white pb-3 fs-3 border-bottom border-3">Teléfono</h1>
+            5553323663</div>
+        <div class="col text-center">
+          <h1 class="text-white pb-3 fs-3 border-bottom border-3">Email</h1>
+            luzsanpri@outlook.es</div>
+        <div class="col text-center">
+         <h1 class="text-white pb-3 fs-3 border-bottom border-3">Facebook</h1>
+            Luz Sánchez</div>
+        </div>
+      </div>
+    </section>
 
 
 
